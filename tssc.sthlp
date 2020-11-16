@@ -44,4 +44,4 @@ See full package list of TSSC
 {pstd}Zhenxing Cheng{p_end}
 {pstd}Shandong University{p_end}
 {pstd}Weihai, Shandong{p_end}
-{pstd}ssc@tidyfriday.cn, 18200993720(Wechat){p_end}
+{pstd}ssc@tidyfriday.cn, r_stata (Wechat){p_end}

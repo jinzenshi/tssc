@@ -37,7 +37,7 @@ program define tsscinstall
 	CheckPkgname "tssc install" `"`pkgname'"'
 	local pkgname `"`s(pkgname)'"'
 	syntax [, ALL REPLACE]
-	di in green "If you have any questions about this command," _n "you can contact me: 18200993720 (Wechat)."
+	di in green "If you have any questions about this command," _n "you can contact me: r_stata (Wechat)."
 	di as yellow "------------------------------------------------------"
 	di as txt "Trying to install `pkgname' from Gitee ..."
 	qui cap net install `pkgname'.pkg, from("https://tidyfriday.gitee.io/tssc/ssc/`pkgname'/") `all' `replace'
@@ -50,7 +50,7 @@ program define tsscinstall
 		qui cap net install `pkgname'.pkg, from("https://czxa.github.io/tssc/ssc/`pkgname'/") `all' `replace'
 		local rc _rc
 		if _rc != 0 {
-			di as err `"Failed Again! But you can try this: if you are sure that this package is on TSSC, you can try to download `pkgname' from{browse "https://stata-tssc.oss-cn-beijing.aliyuncs.com/`pkgname'.zip": `pkgname'.zip} manually, unzip and install it by running:"' _n in yellow `"net install `pkgname'.pkg, from("where the folder `pkgname' is")"' _n as err `"If not, type {stata search `pkgname'} or contact me (18200993720)"'
+			di as err `"Failed Again! But you can try this: if you are sure that this package is on TSSC, you can try to download `pkgname' from{browse "https://stata-tssc.oss-cn-beijing.aliyuncs.com/`pkgname'.zip": `pkgname'.zip} manually, unzip and install it by running:"' _n in yellow `"net install `pkgname'.pkg, from("where the folder `pkgname' is")"' _n as err `"If not, type {stata search `pkgname'} or contact me (r_stata)"'
 			exit `rc'
 		}
 		if _rc == 0 {
