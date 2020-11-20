@@ -1,4 +1,4 @@
-*! Install Stata modules from TidyFriday Statistical Software Components Archive 
+*! Install Stata modules from RStata Statistical Software Components Archive 
 *! Zhenxing Cheng
 *! 14 May 2020
 *! version 0.0.0.9999

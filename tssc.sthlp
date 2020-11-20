@@ -7,7 +7,7 @@
 
 
 {phang}
-{bf:tssc} {hline 2} Install Stata modules from TidyFriday Statistical Software Components Archive.
+{bf:tssc} {hline 2} Install Stata modules from RStata Statistical Software Components Archive.
 
 
 {title:Syntax}

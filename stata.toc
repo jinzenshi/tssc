@@ -1,1 +1,1 @@
-p tssc module to install Stata modules from TidyFriday Statistical Software Components Archive 
+p tssc module to install Stata modules from RStata Statistical Software Components Archive 
