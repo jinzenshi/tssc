@@ -15,9 +15,9 @@ RStata 统计程序软件归档
 --------------
 
     * 从 Gitee 上安装
-    net install tssc.pkg, from("https://tidyfriday.gitee.io/tssc/")
+    net install tssc.pkg, from("https://tidyfriday.gitee.io/tssc/") replace force
     * 从 GitHub 上安装：
-    net install tssc.pkg, from("https://czxa.github.io/tssc/")
+    net install tssc.pkg, from("https://czxa.github.io/tssc/") replace force
 
 安装 tssc 部署的 Stata 外部命令
 -------------------------------
@@ -31,9 +31,9 @@ RStata 统计程序软件归档
 另外你也可以使用 net install 安装：
 
     * 从 Gitee 上安装：
-    net install spmap.pkg, from("https://tidyfriday.gitee.io/tssc/ssc/spmap/") all replace
+    net install spmap.pkg, from("https://tidyfriday.gitee.io/tssc/ssc/spmap/") all replace force
     * 如果提示 Web Error 可以尝试从 GitHub 上安装：
-    net install spmap.pkg, from("https://czxa.github.io/tssc/ssc/spmap/") all replace
+    net install spmap.pkg, from("https://czxa.github.io/tssc/ssc/spmap/") all replace force
 
 ### TSSC 命令列表
 
