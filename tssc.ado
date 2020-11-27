@@ -1,5 +1,5 @@
 *! Install Stata modules from RStata Statistical Software Components Archive 
-*! Zhenxing Cheng
+*! 微信公众号：RStata
 *! 14 May 2020
 *! version 0.0.0.9999
 program define tssc
@@ -45,12 +45,12 @@ program define tsscinstall
 		di in green "Succeeded!"
 	}
 	if _rc != 0 {
-		di in yellow "Failed!"
+		di in yellow "Failed! Don't worry ..."
 		di as txt "Trying to install `pkgname' from GitHub ..."
 		qui cap net install `pkgname'.pkg, from("https://czxa.github.io/tssc/ssc/`pkgname'/") `all' `replace'
 		local rc _rc
 		if _rc != 0 {
-			di as err `"Failed Again! But you can try this: if you are sure that this package is on TSSC, you can try to download `pkgname' from{browse "https://stata-tssc.oss-cn-beijing.aliyuncs.com/`pkgname'.zip": `pkgname'.zip} manually, unzip and install it by running:"' _n in yellow `"net install `pkgname'.pkg, from("where the folder `pkgname' is")"' _n as err `"If not, type {stata search `pkgname'} or contact me (r_stata)"'
+			di as err `"Failed Again!"'
 			exit `rc'
 		}
 		if _rc == 0 {

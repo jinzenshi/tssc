@@ -8,7 +8,7 @@ dir_ls('ssc') %>%
 
 length(have)
 
-# 7 月份更新的
+# 更新的
 haven::read_dta('sschotPPPcur.dta') %>% 
   mutate(value = str_to_lower(package)) %>% 
   distinct(value) %>% 

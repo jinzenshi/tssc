@@ -37,7 +37,7 @@ RStata 统计程序软件归档
 
 ### TSSC 命令列表
 
-TSSC 上合计有 2941 个 Stata 外部命令：
+TSSC 上合计有 2980 个 Stata 外部命令：
 
 <details>
 <summary>
@@ -964,6 +964,17 @@ tssc install arimafit
 </tr>
 <tr>
 <td style="text-align:center;">
+arimasel
+</td>
+<td style="text-align:center;">
+module to compute selection criteria for ARMA(p,q) models"
+</td>
+<td style="text-align:center;">
+tssc install arimasel
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 armadiag
 </td>
 <td style="text-align:center;">
@@ -1311,6 +1322,18 @@ estimation
 </td>
 <td style="text-align:center;">
 tssc install bacondecomp
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+baing
+</td>
+<td style="text-align:center;">
+module to determine and estimate the number of common factors following
+Bai and Ng
+</td>
+<td style="text-align:center;">
+tssc install baing
 </td>
 </tr>
 <tr>
@@ -2251,6 +2274,17 @@ tssc install byvar
 </tr>
 <tr>
 <td style="text-align:center;">
+c\_ml\_stata
+</td>
+<td style="text-align:center;">
+module to implement machine learning classification in Stata
+</td>
+<td style="text-align:center;">
+tssc install c\_ml\_stata
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 cal
 </td>
 <td style="text-align:center;">
@@ -2337,6 +2371,18 @@ module to wrap Stata’s assert command, throws error messages"
 </td>
 <td style="text-align:center;">
 tssc install capass
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+care
+</td>
+<td style="text-align:center;">
+module to randomly generate helpful tips to keep you on top of your
+mental wellbeing
+</td>
+<td style="text-align:center;">
+tssc install care
 </td>
 </tr>
 <tr>
@@ -3229,6 +3275,17 @@ tssc install ckvar
 </tr>
 <tr>
 <td style="text-align:center;">
+clan
+</td>
+<td style="text-align:center;">
+module to perform cluster-level analysis of cluster randomised trials
+</td>
+<td style="text-align:center;">
+tssc install clan
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 classplot
 </td>
 <td style="text-align:center;">
@@ -3373,6 +3430,17 @@ associations with case/control status
 </td>
 <td style="text-align:center;">
 tssc install clump
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+clus\_nway
+</td>
+<td style="text-align:center;">
+module to perform Multi-way Clustering for Various Model Specifications
+</td>
+<td style="text-align:center;">
+tssc install clus\_nway
 </td>
 </tr>
 <tr>
@@ -4571,6 +4639,18 @@ tssc install cquad
 </tr>
 <tr>
 <td style="text-align:center;">
+cquadr
+</td>
+<td style="text-align:center;">
+module to estimate Quadratic Exponential models running the cquad R
+package
+</td>
+<td style="text-align:center;">
+tssc install cquadr
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 cquantile
 </td>
 <td style="text-align:center;">
@@ -4851,6 +4931,17 @@ tssc install cusum6
 </tr>
 <tr>
 <td style="text-align:center;">
+cusum9
+</td>
+<td style="text-align:center;">
+module to compute cusum, cusum^2 stability tests"
+</td>
+<td style="text-align:center;">
+tssc install cusum9
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 cutpt
 </td>
 <td style="text-align:center;">
@@ -4958,6 +5049,17 @@ module to create network visualizations using D3.js to view in browser
 </td>
 <td style="text-align:center;">
 tssc install d3network
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+dadjoke
+</td>
+<td style="text-align:center;">
+module to produce terrible dad jokes
+</td>
+<td style="text-align:center;">
+tssc install dadjoke
 </td>
 </tr>
 <tr>
@@ -5435,6 +5537,18 @@ tssc install dftol
 </tr>
 <tr>
 <td style="text-align:center;">
+diagma
+</td>
+<td style="text-align:center;">
+module for the split component synthesis method of diagnostic
+meta-analysis
+</td>
+<td style="text-align:center;">
+tssc install diagma
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 diagram
 </td>
 <td style="text-align:center;">
@@ -5469,6 +5583,18 @@ tssc install diagreg2
 </tr>
 <tr>
 <td style="text-align:center;">
+diagsampsi
+</td>
+<td style="text-align:center;">
+module for computing sample size for a single diagnostic test with a
+binary outcome
+</td>
+<td style="text-align:center;">
+tssc install diagsampsi
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 diagt
 </td>
 <td style="text-align:center;">
@@ -5488,6 +5614,17 @@ module to report summary statistics for diagnostic test
 </td>
 <td style="text-align:center;">
 tssc install diagtest
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+dict
+</td>
+<td style="text-align:center;">
+module to loop over multiple arguments
+</td>
+<td style="text-align:center;">
+tssc install dict
 </td>
 </tr>
 <tr>
@@ -5913,6 +6050,17 @@ module to look for dta-files used in do-files
 </td>
 <td style="text-align:center;">
 tssc install doparser
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+doptimal
+</td>
+<td style="text-align:center;">
+module to find the D-optimal Design for Dose Ranging studies
+</td>
+<td style="text-align:center;">
+tssc install doptimal
 </td>
 </tr>
 <tr>
@@ -7317,6 +7465,18 @@ module to perform event studies with complex test statistics
 </td>
 <td style="text-align:center;">
 tssc install eventstudy2
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+eventstudyweights
+</td>
+<td style="text-align:center;">
+module to estimate the implied weights on the cohort-specific average
+treatment effects on the treated (CATTs) (event study specifications)
+</td>
+<td style="text-align:center;">
+tssc install eventstudyweights
 </td>
 </tr>
 <tr>
@@ -10176,6 +10336,18 @@ tssc install grqreg
 </tr>
 <tr>
 <td style="text-align:center;">
+grsftest
+</td>
+<td style="text-align:center;">
+module to perform the Gibbons, Ross, Shanken test of mean-variance
+efficiency of asset returns"
+</td>
+<td style="text-align:center;">
+tssc install grsftest
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 grstest
 </td>
 <td style="text-align:center;">
@@ -10680,6 +10852,17 @@ module to print the head observations (first observations in data set)
 </td>
 <td style="text-align:center;">
 tssc install head
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+heart
+</td>
+<td style="text-align:center;">
+module to make coding fun and accessible
+</td>
+<td style="text-align:center;">
+tssc install heart
 </td>
 </tr>
 <tr>
@@ -13050,6 +13233,29 @@ tssc install khb
 </tr>
 <tr>
 <td style="text-align:center;">
+kinkyreg
+</td>
+<td style="text-align:center;">
+module to perform kinky least squares estimation and inference
+</td>
+<td style="text-align:center;">
+tssc install kinkyreg
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+kit\_livingincome
+</td>
+<td style="text-align:center;">
+module providing Tables and Bar charts of the Gap to the Living Income
+Benchmark
+</td>
+<td style="text-align:center;">
+tssc install kit\_livingincome
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 kitchensink
 </td>
 <td style="text-align:center;">
@@ -13794,6 +14000,17 @@ module providing D3js Mata library
 </td>
 <td style="text-align:center;">
 tssc install libd3
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+libhtml
+</td>
+<td style="text-align:center;">
+module providing an object oriented implementation of HTML in Mata
+</td>
+<td style="text-align:center;">
+tssc install libhtml
 </td>
 </tr>
 <tr>
@@ -15825,6 +16042,17 @@ tssc install marktouse
 </tr>
 <tr>
 <td style="text-align:center;">
+markupest
+</td>
+<td style="text-align:center;">
+module for markup estimation via Micro and Macro approaches
+</td>
+<td style="text-align:center;">
+tssc install markupest
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 mat2txt
 </td>
 <td style="text-align:center;">
@@ -16571,6 +16799,17 @@ tssc install metapow
 </tr>
 <tr>
 <td style="text-align:center;">
+metapred
+</td>
+<td style="text-align:center;">
+module producing outlier and influence diagnostics for meta-analysis
+</td>
+<td style="text-align:center;">
+tssc install metapred
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 metapreg
 </td>
 <td style="text-align:center;">
@@ -16749,6 +16988,17 @@ module to perform multiple hypothesis testing correction procedure
 </td>
 <td style="text-align:center;">
 tssc install mhtexp
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+mhtreg
+</td>
+<td style="text-align:center;">
+module for multiple hypothesis testing controlling for FWER
+</td>
+<td style="text-align:center;">
+tssc install mhtreg
 </td>
 </tr>
 <tr>
@@ -17775,6 +18025,17 @@ tssc install mtemore
 </tr>
 <tr>
 <td style="text-align:center;">
+mtpi
+</td>
+<td style="text-align:center;">
+module for the modified Toxicity Probability Interval design
+</td>
+<td style="text-align:center;">
+tssc install mtpi
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 mtreatreg
 </td>
 <td style="text-align:center;">
@@ -18096,6 +18357,17 @@ module to process ICD-10 diagnosis and procedure codes
 </td>
 <td style="text-align:center;">
 tssc install mycd10
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+mycolours
+</td>
+<td style="text-align:center;">
+module for setting a palette of colours through local macros
+</td>
+<td style="text-align:center;">
+tssc install mycolours
 </td>
 </tr>
 <tr>
@@ -18930,6 +19202,18 @@ tssc install obsofint
 </tr>
 <tr>
 <td style="text-align:center;">
+ocmt
+</td>
+<td style="text-align:center;">
+module to perform multiple testing approach in high-dimensional linear
+regression
+</td>
+<td style="text-align:center;">
+tssc install ocmt
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 ocratio
 </td>
 <td style="text-align:center;">
@@ -19251,6 +19535,17 @@ module to orthogonalize variables
 </td>
 <td style="text-align:center;">
 tssc install orthog
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+osgen
+</td>
+<td style="text-align:center;">
+module to add Python os\_stat() file attributes to a xdir resultsset
+</td>
+<td style="text-align:center;">
+tssc install osgen
 </td>
 </tr>
 <tr>
@@ -20238,6 +20533,17 @@ module to compute targeted price indices
 </td>
 <td style="text-align:center;">
 tssc install pindex
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+pipe
+</td>
+<td style="text-align:center;">
+module to perform a curve-free dual-agent dose-escalation design
+</td>
+<td style="text-align:center;">
+tssc install pipe
 </td>
 </tr>
 <tr>
@@ -21357,6 +21663,17 @@ tssc install pweibull
 </tr>
 <tr>
 <td style="text-align:center;">
+pwexp
+</td>
+<td style="text-align:center;">
+module to fit piecewise exponential model
+</td>
+<td style="text-align:center;">
+tssc install pwexp
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 pwmc
 </td>
 <td style="text-align:center;">
@@ -21665,6 +21982,17 @@ tssc install qregpd
 </tr>
 <tr>
 <td style="text-align:center;">
+qregsel
+</td>
+<td style="text-align:center;">
+module to estimate quantile regression corrected for sample selection
+</td>
+<td style="text-align:center;">
+tssc install qregsel
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 qrisk2cmd
 </td>
 <td style="text-align:center;">
@@ -21916,6 +22244,28 @@ tssc install r2var
 </tr>
 <tr>
 <td style="text-align:center;">
+r\_ml\_stata
+</td>
+<td style="text-align:center;">
+module to implement machine learning regression in Stata
+</td>
+<td style="text-align:center;">
+tssc install r\_ml\_stata
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+r\_to\_d
+</td>
+<td style="text-align:center;">
+module for converting Pearson’s r to Cohen’s d
+</td>
+<td style="text-align:center;">
+tssc install r\_to\_d
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 radar
 </td>
 <td style="text-align:center;">
@@ -21923,6 +22273,17 @@ module to draw radar (spider) plots
 </td>
 <td style="text-align:center;">
 tssc install radar
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+radf
+</td>
+<td style="text-align:center;">
+module to calculate unit root tests for explosive behaviour
+</td>
+<td style="text-align:center;">
+tssc install radf
 </td>
 </tr>
 <tr>
@@ -21978,6 +22339,18 @@ module to compute randomization inference p-values
 </td>
 <td style="text-align:center;">
 tssc install randcmd
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+randcoef
+</td>
+<td style="text-align:center;">
+module to estimate correlated random effects and correlated random
+coefficients models
+</td>
+<td style="text-align:center;">
+tssc install randcoef
 </td>
 </tr>
 <tr>
@@ -23210,6 +23583,17 @@ module to reshape while preserving variable labels
 </td>
 <td style="text-align:center;">
 tssc install reshape8
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+resp
+</td>
+<td style="text-align:center;">
+module to compute Index of Relative Specialization
+</td>
+<td style="text-align:center;">
+tssc install resp
 </td>
 </tr>
 <tr>
@@ -25296,6 +25680,17 @@ tssc install silhouette
 </tr>
 <tr>
 <td style="text-align:center;">
+silvermtest
+</td>
+<td style="text-align:center;">
+module to perform Silverman (1981) multimodality test
+</td>
+<td style="text-align:center;">
+tssc install silvermtest
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 simarwilson
 </td>
 <td style="text-align:center;">
@@ -26307,6 +26702,17 @@ tssc install spmstarxt
 </tr>
 <tr>
 <td style="text-align:center;">
+spnorm
+</td>
+<td style="text-align:center;">
+module to plot Shaded Percentiles of Normal Distributions
+</td>
+<td style="text-align:center;">
+tssc install spnorm
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 sppack
 </td>
 <td style="text-align:center;">
@@ -27027,6 +27433,17 @@ tssc install stack
 </tr>
 <tr>
 <td style="text-align:center;">
+stackedcount
+</td>
+<td style="text-align:center;">
+module to produce a stacked area graph
+</td>
+<td style="text-align:center;">
+tssc install stackedcount
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
 staft
 </td>
 <td style="text-align:center;">
@@ -27600,6 +28017,18 @@ module to fit multilevel mixed effects parametric survival models
 </td>
 <td style="text-align:center;">
 tssc install stmixed
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+stmt
+</td>
+<td style="text-align:center;">
+module to model multiple timescales using flexible parametric survival
+models on the log-hazard scale
+</td>
+<td style="text-align:center;">
+tssc install stmt
 </td>
 </tr>
 <tr>
@@ -28709,6 +29138,18 @@ module to transpose string variable dataset
 </td>
 <td style="text-align:center;">
 tssc install sxpose
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+sxpose2
+</td>
+<td style="text-align:center;">
+module to transpose string and numeric variable dataset including
+variable names and labels
+</td>
+<td style="text-align:center;">
+tssc install sxpose2
 </td>
 </tr>
 <tr>
