@@ -62,4 +62,4 @@ haven::read_dta('cmdlist.dta') %>%
 ------------
 
 <h4 align="center">License</h4>
-<h6 align="center">MIT © tidyfriday.cn</h6>
+<h6 align="center">MIT © 微信公众号 RStata</h6>

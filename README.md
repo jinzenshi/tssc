@@ -37,7 +37,7 @@ RStata 统计程序软件归档
 
 ### TSSC 命令列表
 
-TSSC 上合计有 2980 个 Stata 外部命令：
+TSSC 上合计有 2981 个 Stata 外部命令：
 
 <details>
 <summary>
@@ -1496,6 +1496,7 @@ TSSC 上合计有 2980 个 Stata 外部命令：
 |         mdensity         |                                                                                           module for univariate kernel density estimation, for variables or groups"                                                                                            |         tssc install mdensity         |
 |         mdepriv          |                                                                                                 module to compute synthetic indicators of multiple deprivation                                                                                                 |         tssc install mdepriv          |
 |          mdesc           |                                                                                                        module to tabulate prevalence of missing values                                                                                                         |          tssc install mdesc           |
+|           mdrd           |                                                                                                                                                                                                                                                                |           tssc install mdrd           |
 |          mean2           |                                                                                            module to make a table of estimate means with subpopulation differences                                                                                             |          tssc install mean2           |
 |         meaning          |                                                                                               module to use internet search for the meaning for a word or phrase                                                                                               |         tssc install meaning          |
 |        medcouple         |                                                                                          module to compute medcouple measure of asymmetry and heaviness of the tails                                                                                           |        tssc install medcouple         |
@@ -3037,5 +3038,5 @@ TSSC 上合计有 2980 个 Stata 外部命令：
 License
 </h4>
 <h6 align="center">
-MIT © tidyfriday.cn
+MIT © 微信公众号 RStata
 </h6>
