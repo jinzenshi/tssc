@@ -54,7 +54,7 @@ TSSC 上合计有 `r nrow(haven::read_dta('cmdlist.dta'))` 个 Stata 外部命�
 ```{r echo=FALSE}
 haven::read_dta('cmdlist.dta') %>% 
   mutate(install = paste("tssc install", cmd)) %>% 
-  knitr::kable(align = 'c', format = "html")
+  knitr::kable(align = 'c', escape = T)
 ```
 
 </p></details>
