@@ -47,7 +47,7 @@ program define tsscinstall
 	if _rc != 0 {
 		di in yellow "Failed! Don't worry ..."
 		di as txt "Trying to install `pkgname' from GitHub ..."
-		qui cap net install `pkgname'.pkg, from("https://czxa.github.io/tssc/ssc/`pkgname'/") `all' `replace'
+		qui cap net install `pkgname'.pkg, from("https://r-stata.github.io/tssc/tssc/ssc/`pkgname'/") `all' `replace'
 		local rc _rc
 		if _rc != 0 {
 			di as err `"Failed Again!"'
