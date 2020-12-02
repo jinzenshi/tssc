@@ -41,7 +41,6 @@ See full package list of TSSC
 
 {title:Authors}
 
-{pstd}Zhenxing Cheng{p_end}
-{pstd}Shandong University{p_end}
-{pstd}Weihai, Shandong{p_end}
+{pstd}RStata{p_end}
+{pstd}微信公众号 RStata{p_end}
 {pstd}ssc@tidyfriday.cn, r_stata (Wechat){p_end}

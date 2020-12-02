@@ -28,8 +28,5 @@
 
 {title:作者}
 
-{pstd}程振兴{p_end}
-{pstd}暨南大学·经济学院·金融学{p_end}
-{pstd}中国·广州{p_end}
-{pstd}{browse "http://www.czxa.top":个人网站}{p_end}
-{pstd}Email {browse "mailto:czxjnu@163.com":czxjnu@163.com}{p_end}
+{pstd}RStata{p_end}
+{pstd}欢迎关注微信公众号 RStata{p_end}
